@@ -1,0 +1,49 @@
+# ===============================
+# Python bytecode & cache
+# ===============================
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual Environments (ANY depth)
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+
+# ===============================
+# Environment variables (ANY depth)
+# ===============================
+.env
+**/.env
+
+# ===============================
+# VS Code / Editor files
+# ===============================
+.vscode/
+*.code-workspace
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+
+
+# ===============================
+# Ignore specific project folders
+# ===============================
