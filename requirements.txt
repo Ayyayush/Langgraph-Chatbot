@@ -1,0 +1,19 @@
+# --- Core app ---
+streamlit>=1.59.0
+python-dotenv>=1.0.0
+
+# --- LangGraph + LLM ---
+langgraph>=1.2.0
+langgraph-checkpoint-sqlite>=3.1.0
+langchain-core>=1.4.0
+langchain-groq>=1.1.0
+
+# --- Web search (research mode) ---
+ddgs>=9.14.0
+
+# --- PDF processing ---
+pypdf>=5.9.0
+
+# --- RAG / vector store (ChromaDB uses a free local embedding model,
+#     no external embedding API key needed) ---
+chromadb>=1.5.0
